@@ -47,3 +47,10 @@ followed by the name of the shape, like `text-security-disc`.
 ## Demo
 *demo.html* contains a proof-of-concept demo file, which you can just open in
 any browser. The same thing can also be found [as a fiddle](https://jsfiddle.net/449Lamue/6/).
+
+
+## Build version with Cyrillic support
+
+`$ npm run build -- --max=9471 --shapes=disc`
+
+cf [Unicode Character Ranges](http://jrgraphix.net/research/unicode.php) (_2460 — 24FF  	Enclosed Alphanumerics_)
